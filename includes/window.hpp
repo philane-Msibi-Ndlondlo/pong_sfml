@@ -1,11 +1,12 @@
 #pragma once
-
 #include <SFML/Graphics.hpp>
 #include <string>
 #include "player.hpp"
 
 class Window {
-    
+#include <SFML/Graphics.hpp>
+#include <string>
+
     private:
         int width;
         int height;
@@ -21,7 +22,6 @@ class Window {
         void clearRender();
         void render();
 	void draw(void* shape);
-
         void setWidth(int width);
         void setheight(int height);
         void setResizable(bool resizable);

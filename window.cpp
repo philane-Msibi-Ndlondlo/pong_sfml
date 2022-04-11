@@ -68,9 +68,11 @@ void Window::render() {
 void Window::setWidth(int width) {
     this->width = width;
 }
+
 void Window::setheight(int height) {
     this->height = height;
 }
+
 void Window::setResizable(bool resizable) {
     this->resizable = resizable;
 }

@@ -6,5 +6,5 @@ int main(int argc, char** argv) {
 
 	Game* game = new Game(600, 400, "My Pong");
 	game->run();
-    return 0;
+	return 0;
 }
